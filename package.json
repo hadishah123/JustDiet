@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
-    "@fortawesome/fontawesome-free": "^6.6.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.3.1",
