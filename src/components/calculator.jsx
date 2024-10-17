@@ -80,12 +80,13 @@ export default function Calculator() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-gender-female"
-                    className="gender-svg" viewBox="0 0 16 16"
+                    // class="bi bi-gender-male"
+                    className="gender-svg bi bi-gender-male"
+                    viewBox="0 0 16 16"
                   >
                     <path
-                      fill-rule="evenodd"
-                      d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"
+                      fillRule="evenodd"
+                      d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"
                     />
                   </svg>
                   <span>Male</span>
@@ -103,12 +104,13 @@ export default function Calculator() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-gender-male"
-                    className="gender-svg" viewBox="0 0 16 16"
+                    // class="bi bi-gender-female"
+                    className="gender-svg bi bi-gender-female"
+                    viewBox="0 0 16 16"
                   >
                     <path
-                      fill-rule="evenodd"
-                      d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"
+                      fillRule="evenodd"
+                      d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"
                     />
                   </svg>
                   Female
@@ -119,7 +121,11 @@ export default function Calculator() {
                   className={`gender-btn ${gender === "Other" ? "active" : ""}`}
                   onClick={() => handleGenderChange("Other")}
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="gender-svg" viewBox="0 0 512 512">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="gender-svg"
+                    viewBox="0 0 512 512"
+                  >
                     <path d="M112 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-31 31L112 78.1l7-7c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-7 7 15.2 15.2C187.7 107.6 220.5 96 256 96s68.3 11.6 94.9 31.2l68.8-68.8-31-31c-4.6-4.6-5.9-11.5-3.5-17.4s8.3-9.9 14.8-9.9l96 0c8.8 0 16 7.2 16 16l0 96c0 6.5-3.9 12.3-9.9 14.8s-12.9 1.1-17.4-3.5l-31-31-68.8 68.8C404.4 187.7 416 220.5 416 256c0 80.2-59 146.6-136 158.2l0 17.8 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-16 0 0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8-16 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l16 0 0-17.8C155 402.6 96 336.2 96 256c0-35.5 11.6-68.3 31.2-94.9L112 145.9l-7 7c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l7-7L58.3 92.3l-31 31c-4.6 4.6-11.5 5.9-17.4 3.5S0 118.5 0 112L0 16C0 7.2 7.2 0 16 0l96 0zM352 256a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
                   </svg>
                   Other
@@ -190,7 +196,11 @@ export default function Calculator() {
             </p>
           )}
         </div>
-        <img src="./src/assets/BMI/thomas.webp" alt="Kizaru" className="bmi-thomas"/>
+        <img
+          src="./src/assets/BMI/thomas.webp"
+          alt="Kizaru"
+          className="bmi-thomas"
+        />
       </div>
     </div>
   );
