@@ -1,0 +1,118 @@
+.arrowLocation {
+  position: absolute;
+  right: 17vw;
+  top: 55vh;
+}
+
+.ConsultationSection {
+  /* border-bottom: 7px solid #14463a; */
+  height: 240vh;
+  position: relative;
+  /* background: radial-gradient(
+    circle,
+    rgba(253, 252, 255, 1) 0%,
+    rgba(236, 222, 183, 1) 34%,
+    rgba(236, 222, 183, 1) 74%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+}
+
+.apointmentImg {
+  position: absolute;
+  /* width: 93vw; */
+  height: 55vh;
+  top: 120vh;
+  left: 14vw;
+}
+
+.apointmentImgDecor {
+  position: absolute;
+  top: 174vh;
+  right: 18vh;
+}
+
+.apointmentImgDecor2 {
+  position: absolute;
+  top: 175vh;
+  right: 16vh;
+}
+
+.consult-head-combine {
+  /* border: 11px solid black; */
+  z-index: 5;
+  position: absolute;
+  top: 87vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-main-styling {
+  color: #14463a;
+  font-size: 5.5rem;
+  font-family: verdana;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: -2rem;
+  text-transform: uppercase;
+}
+
+.heading-main-2-styling {
+  color: #14463a;
+  font-size: 5.5rem;
+  font-family: verdana;
+  top: 183vh;
+  left: 44vw;
+  transform: translateX(-40%);
+  font-weight: 800;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.BookNowButton {
+  padding: 1.4rem 3.2rem;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  color: #14463a;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.56) 7px 11px 10px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background: #ffb91d;
+  position: absolute;
+  bottom: 77vh;
+  left: 51vw;
+  transition: 200ms all ease;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: white;
+  }
+}
+
+.HiW-section-illustration-wrapper {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.HiW-section-illustration-wrapper .illustration-imgText-wrapper {
+  /* border: 1px solid rgb(55, 0, 255); */
+  text-align: center;
+}
+/* .HiW-section-illustration-wrapper .illustration-imgText-wrapper img{
+  border: 1px solid red;
+} */
+.illustration-imgText-wrapper .how-it-works-section-text {
+  width: 16rem;
+  font-size: 1.3rem;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+}
+.consulation-bg{
+  position: absolute;
+  bottom: -8vh;
+  height: 190vh;
+}

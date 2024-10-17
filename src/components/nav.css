@@ -1,0 +1,96 @@
+*{
+    /* box-sizing: border-box;
+    outline: 6px solid limegreen !important; */
+    font-family: Verdana;
+}
+.heroSection{
+    background-color: #14463a;
+    height: 70vh;
+}
+.row {
+  font-family: "Monument Extended", sans-serif;
+  color: white;
+  width: 100%;
+  background-color: #14463a;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 1rem;
+  /* width: 95.7rem; */
+}
+.brand-text {
+  /* border: 1px solid rgb(94, 190, 25); */
+  margin-left: 1rem;
+}
+
+.brand-favicon {
+  height: 3rem;
+}
+.navbar-nav-brand {
+  /* border: 1px solid rgb(187, 15, 255); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  z-index: 5;
+}
+.nav-list-top {
+  /* border: 1px solid rgb(187, 15, 255); */
+  margin-left: 3rem;
+}
+.nav-list-top .navbar-nav {
+  margin: 0rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: end;
+  margin-right: 1rem;
+}
+.col .btn-light {
+
+  border-radius: 2rem;
+  padding: 0.6rem 4rem;
+  font-size: 1.2rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: 91vh; /* changed from 95vh */
+  object-fit: fill;
+  margin: 0;
+  background-color: #14463a;
+  position: relative;
+  z-index:1;
+  top:-1rem;
+}
+
+.hero-bowl-image {
+  margin: 0;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 20rem;
+  left: 20.5rem;
+  animation: rotate 25s linear infinite;
+  transition: 2s ease;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.btn a{
+  color: black;
+  text-decoration: none;
+}

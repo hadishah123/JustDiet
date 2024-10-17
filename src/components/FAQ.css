@@ -1,0 +1,132 @@
+.FAQ-section {
+  height: 115vh;
+  z-index: 2;
+  position: relative;
+}
+.faq-decor {
+  position: absolute;
+  right: 25%;
+  top: 1rem;
+}
+#accordian {
+  width: 60rem;
+  transition: 500ms ease;
+  margin: 3rem auto;
+}
+#accordian li {
+  list-style: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  border: 1.1px solid rgb(14, 83, 83);
+}
+#accordian li label {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+#accordian li span {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  font-size: 1.8rem;
+  transition: transform 0.5s ease;
+}
+#accordian label + input[type="radio"] {
+  display: none;
+}
+#accordian .content {
+  padding: 1rem;
+  line-height: 1.2rem;
+  max-height: 0;
+  color: rgb(119, 116, 116);
+  transition: max-height 500ms ease;
+}
+#accordian label + input[type="radio"] + .content {
+  display: none;
+}
+#accordian label + input[type="radio"]:checked + .content {
+  max-height: 25rem;
+  display: block;
+}
+.checked {
+  background-color: #14463a; /* Change this to your desired color */
+  color: white;
+}
+#accordian li {
+  list-style: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  border: none; /* Default no border */
+}
+
+#accordian input[type="radio"]:checked + label + .content {
+  max-height: 25rem;
+  display: block;
+}
+
+#accordian input[type="radio"]:checked + label {
+  border: 2px solid black; /* Border appears when radio is checked */
+}
+
+/* Adjusting the previous label styles */
+#accordian label {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none; /* Ensure no border is applied initially */
+}
+
+/* The content area */
+#accordian .content {
+  padding: 1rem;
+  line-height: 1.2rem;
+  max-height: 0;
+  color: rgb(119, 116, 116);
+  transition: max-height 500ms ease;
+}
+#accordian li span {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  font-size: 1.8rem;
+  transition: transform 0.5s ease;
+}
+
+#accordian li span.checked {
+  transform: rotate(180deg); /* Rotate when checked */
+}
+
+.faq-decor1 {
+  position: absolute;
+  left: 54.5%;
+  top: -2vh;
+}
+.faq-bg{
+  position: absolute;
+  z-index: -1;
+  height: 120vh;
+  left: 25%;
+  top: -7vh;
+}

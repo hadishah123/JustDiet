@@ -1,0 +1,141 @@
+.review-section {
+  /* background: radial-gradient(
+        circle,
+        #40E0BA 10%,
+        rgba(236, 222, 183, 1) 34%,
+        rgba(236, 222, 183, 1) 74%,
+        rgba(255, 255, 255, 1) 100%
+      ); */
+  height: 110vh;
+  position: relative;
+}
+.fr-ul-decor1 {
+  position: absolute;
+  top: 6rem;
+  left: 26%;
+}
+.fr-ul-decor2 {
+  position: absolute;
+  top: 5rem;
+  left: 64%;
+  z-index: 2;
+}
+.reviews-cp{
+  position: absolute;
+  left: 10%;
+  top: 14%;
+  /* border: 1px solid black; */
+}
+.reviews-main-container {
+  /* border: 11px solid black; */
+  position: relative;
+}
+.review-box {
+  border: 1px solid rgb(255, 255, 255);
+  background: white;
+  width: 30rem;
+  height: 13rem;
+  padding: 1.1rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  transition: 300ms ease-in;
+  &:hover {
+    z-index: 100;
+    transform: scale(1.05);
+  }
+}
+.review-box img {
+  margin-right: 0.7rem;
+}
+.R1 {
+  position: absolute;
+  top: 13vh;
+  left: 40vw;
+  z-index: 1;
+  background-color: #fcf3ec;
+}
+.R2 {
+  position: absolute;
+  top: 30vh;
+  left: 14vw;
+  background-color: #fffaf7;
+}
+.R3 {
+  position: absolute;
+  top: 43vh;
+  left: 44vw;
+}
+.R4 {
+  position: absolute;
+  top: 54vh;
+  left: 23vw;
+  background-color: #fbeee5;
+}
+.R5 {
+  position: absolute;
+  top: 52vh;
+  left: 58vw;
+  background-color: #fcf4ed;
+}
+/* .commentor-info{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+} */
+.commentor-img {
+  width: 3.6rem;
+  height: 3.6rem;
+  object-fit: cover;
+}
+.rating {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  /* border: 1px solid black; */
+}
+.rating img {
+  height: 1.25rem;
+  margin: 1.7px;
+}
+.rating .c-name {
+  color: #14463a;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.c-designation {
+  font-size: 0.8rem;
+  margin-top: -1rem;
+  color: rgb(124, 123, 123);
+}
+.c-emoji {
+  margin: 0 6px;
+  font-size: 1.4rem;
+}
+.comment-heading {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+.comment {
+  color: rgb(71, 69, 69);
+  font-size: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+.comment-date {
+  color: #e8a0a8;
+  font-size: 0.6rem;
+}
+.review-bgl {
+  position: absolute;
+  height: 150vh;
+  left: 0;
+  top: 0;
+}
+.review-bgr {
+  position: absolute;
+  height: 150vh;
+  right: 0;
+  top: 0;
+}

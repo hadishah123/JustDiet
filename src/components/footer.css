@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Monument Extended Bold";
+  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
+  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended Bold")
+      format("svg");
+}
+.footer .footer-top-section {
+  height: 101vh;
+  background-image: url("./src/assets/footer/footer-bg.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  padding: 2rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  margin-top: -6rem;
+  padding-top: 7rem;
+  font-family: "Monument Extended Bold";
+}
+.footer-top-section .footer-heading {
+  z-index: 2;
+  /* color: white; */
+  font-family: "Monument Extended Bold";
+  font-size: 5rem;
+  letter-spacing: 1px;
+  width: 80vw;
+  /* text-transform: capitalize; */
+}
+.footer .footer-text {
+  font-size: 1.8rem;
+  letter-spacing: -0.7px;
+  width: 60vw;
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  padding: 2rem;
+  bottom: 20%;
+  color: #ffffff;
+}
+.subscribe-now {
+  font-size: 1.6rem;
+  font-family: Verdana, sans-serif;
+  color: #14463a;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 2rem;
+  width: max-content;
+  border: none;
+  box-shadow: rgba(70, 70, 123, 0.2) 0px 7px 29px 0px;
+  padding: 0.3rem 3rem;
+  transition: 400ms ease;
+  &:hover {
+    background-color: #14463a;
+    color: white;
+    /* border: 2px solid white; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px,
+      rgba(255, 255, 255, 0.1) 0px 8px 24px,
+      rgba(255, 255, 255, 0.1) 0px 16px 56px;
+  }
+}
+.footer-bowl {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 3rem;
+}
+.footer-nav-section {
+  height: 75vh;
+  background-color: #14463a;
+  color: white;
+  /* margin-bottom: -3rem; */
+}
+.footer-tr-arrow {
+  height: 0.8rem;
+  position: absolute;
+  right: 6.6rem;
+  top: 1rem;
+}
+.footer-nav {
+  /* border: 2px solid black; */
+  display: block;
+  padding: 1rem 3rem;
+  width: 33rem;
+}
+.footer-styling-logo {
+  height: 100%;
+}
+.footer-brand-name-styling {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: end;
+  height: 3rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.footer-nav-list {
+  list-style: none;
+  /* border: 2px solid black; */
+}
+.footer-contact-btn{
+  border: none;
+  /* outline: none; */
+  margin-left: -1.8rem;
+  color: rgb(157, 154, 154);
+  font-size: 1.7rem;
+  background-color: #14463a;
+  /* border: 2px solid black; */
+  line-height: 3rem;
+  transition: 100ms linear;
+  &:hover {
+    color: whitesmoke;
+  }
+}
+.footer-nav li a {
+  text-decoration: none;
+  margin-left: -1.5rem;
+  color: rgb(157, 154, 154);
+  font-size: 1.7rem;
+  /* border: 2px solid black; */
+  line-height: 3rem;
+  transition: 100ms linear;
+  &:hover {
+    color: whitesmoke;
+  }
+}
+.top-btn {
+  width: 3rem;
+  /* border: 2px solid black; */
+}
+.footer-contactInfo {
+  /* border: 2px solid black; */
+  width: 20rem;
+}
+.footer-nav-section {
+  display: flex;
+  /* border: 2px solid rgb(6, 33, 112); */
+  justify-content: space-between;
+  align-items: end;
+}
+.footer-contactInfo .yellow-font {
+  font-family: "Monument Extended Bold";
+  color: #ffb91d;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: -0.5rem;
+}
+.footer-contactInfo .footer-small-text {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  color: rgb(210, 209, 206);
+}
+.footer {
+  height: 185vh;
+  /* background-color: #14463a; */
+  color: white;
+}
+.footer .footer-copyright {
+  text-align: center;
+  padding: 1.1rem;
+  font-size: 1.5rem;
+  background-color: #14463a;
+}
+.footer-contactInfo .mb {
+  /* border: 2px solid black; */
+  text-decoration: none;
+  color: white;
+}

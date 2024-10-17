@@ -1,0 +1,11 @@
+.change-bg-for-all-components{
+      /* background: radial-gradient(
+    circle,
+    rgb(236, 232, 208) 0%,
+    rgb(229, 218, 190) 34%,
+    rgb(239, 223, 172) 74%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+/* background: #E9CA48; */
+background: radial-gradient(at center, #f9f7ea, #fafae0);
+}

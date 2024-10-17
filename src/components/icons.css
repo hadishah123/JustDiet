@@ -1,0 +1,18 @@
+.icons-wrapper {
+  display: flex;
+  /* border: 2px solid black; */
+  padding: 2rem 0;
+}
+.icons-wrapper a {
+  margin-right: 2rem;
+}
+.fab {
+  color: white;
+  font-size: 2rem;
+}
+.icons-wrapper svg {
+  z-index: 5;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+}

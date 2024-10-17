@@ -1,0 +1,46 @@
+
+.our-salad-section {
+  /* border: 2px solid black; */
+  /* background: radial-gradient(
+    circle,
+    rgba(253, 252, 255, 1) 0%,
+    rgba(236, 222, 183, 1) 34%,
+    rgba(236, 222, 183, 1) 74%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+  height: 120vh;
+}
+.our-salad-inner-section {
+  /* height: max-content; */
+  /* border-top: 3px solid #000; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0rem 4rem;
+}
+.os-heading-styling {
+  letter-spacing: -3px;
+  /* border: 2px solid black; */
+  margin: 0;
+  color: #14463a;
+  font-size: 5rem;
+  font-family: verdana;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.saladImage {
+  width: 14rem;
+}
+.saladName{
+  color: #14463a;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: verdana;
+  margin: 0;
+}
+.saladInfo{
+    font-size: 1.2rem;
+}

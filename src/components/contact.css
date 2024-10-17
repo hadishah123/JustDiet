@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Monument Extended Bold";
+  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
+  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended Bold")
+      format("svg");
+}
+.contact-page {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #103f34;
+}
+.contact-page-bg {
+  position: absolute;
+  z-index: 1;
+  top: -0.8rem;
+  width: 100%;
+  height: 100vh;
+}
+.contact-page-bg-top {
+  z-index: 2;
+  position: absolute;
+  object-fit: fill;
+  height: 96vh;
+  width: 75%;
+  top: 6vh;
+  left: 12%;
+}
+.justdiet-form-section {
+  height: 77vh;
+  position: absolute;
+  top: 22vh;
+  left: 19%;
+  z-index: 3;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  /* border: 5px solid rgb(195, 0, 255); */
+}
+.contact-form {
+  width: 34%;
+  height: 83%;
+  /* border: 3px solid rgb(33, 168, 236); */
+}
+.contact-benefit {
+  width: 48%;
+  height: 83%;
+  /* border: 3px solid rgb(33, 168, 236); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.1rem;
+}
+/* Form STarting */
+.form {
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+}
+.ic {
+  /* position: relative; */
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 2.7rem;
+  margin: 1rem;
+}
+.ic input {
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+.input {
+  background-color: #ede7d4;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #103f34;
+  height: 100%;
+  outline: 0;
+  padding: 9px 20px;
+  padding-left: 1.8rem;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.input::placeholder {
+  color: #103f34;
+  position: absolute;
+  left: 1.8rem;
+}
+.submit {
+  background-color: #103f34;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 3.5rem;
+  left: 2rem;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 16px;
+  height: 2.5rem;
+  /* outline: 0; */
+  /* text-align: center; */
+  width: 80%;
+  font-family: "Verdana", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ic svg {
+  position: absolute;
+  left: 2.5rem;
+  height: 2.8rem;
+}
+.submit:active {
+  background-color: #ede7d4;
+  color: #103f34;
+  border: 2px solid #103f3a;
+}
+.ic select {
+  border: 1.2px solid black;
+  border-radius: 2rem;
+  background-color: #ede7d4; /* Matching the input background */
+  height: 100%;
+  padding: 4px 20px;
+  font-size: 0.8rem;
+  margin-right: 3rem;
+  padding-left: 1.7rem;
+}
+.agreement-text {
+  font-size: 0.6rem;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  /* border: 2px solid black; */
+  width: 78%;
+  left: 10%;
+  color: #103f34;
+  position: absolute;
+  bottom: 0;
+}
+.contact-benefit {
+  color: #103f34;
+}
+.benefit-heading {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: "Monument Extended Bold", sans-serif;
+  text-transform: uppercase;
+  margin: -0.5rem 0;
+}
+.benefit-heading2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.benefits {
+  /* border: 2px solid blue; */
+  display: flex;
+  margin-left: 2rem;
+}
+.benefits img {
+  height: 1rem;
+}
+.benefits p {
+  font-family: "Verdana", sans-serif;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+.contact-footer {
+  width: 100%;
+  height: 10vh;
+  bottom: 0;
+  /* background-color: rgb(218, 127, 127); */
+  position: absolute;
+  text-align: center;
+  z-index: 5;
+}
+.icons {
+  z-index: 5;
+  /* background-color: #e97070; */
+  color: #103f34;
+  width: 20rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 2.4rem;
+}
+.icons a{
+    text-decoration: none;
+    color: #103f34;
+}
+.icons svg {
+  font-size: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.hr {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #000000;
+  z-index: 5;
+  height: 2px;
+}
+.footer-text {
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 1.2rem;
+  right: 2.7rem;
+  color: #103f34;
+}
