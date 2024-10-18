@@ -5,32 +5,32 @@ export default function Salads() {
     {
       name: 'Egg Chicken Salad Bowl',
       description: '520cal - 22g Protein',
-      image: '../src/assets/salads/salad3.webp',
+      image: '/assets/salads/salad3.webp',
     },
     {
       name: 'Veg Salad Bowl',
       description: '520cal - 22g Protein',
-      image: '../src/assets/salads/salad2.webp',
+      image: '/assets/salads/salad2.webp',
     },
     {
       name: 'Fruit Salad Bowl',
       description: '520cal - 22g Protein',
-      image: '../src/assets/salads/salad3.webp',
+      image: '/assets/salads/salad3.webp',
     },
     {
       name: 'Egg Chicken Salad Bowl',
       description: '520cal - 22g Protein',
-      image: '../src/assets/salads/salad1.webp',
+      image: '/assets/salads/salad1.webp',
     },
     {
       name: 'Veg Salad Bowl',
       description: '520cal - 22g Protein',
-      image: '../src/assets/salads/salad2.webp',
+      image: '/assets/salads/salad2.webp',
     },
     {
       name: 'Fruit Salad Bowl',
       description: '520cal - 22g Protein',
-      image: '../src/assets/salads/salad3.webp',
+      image: '/assets/salads/salad3.webp',
     },
   ];
 

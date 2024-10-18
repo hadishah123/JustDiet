@@ -15,7 +15,7 @@
 }
 .footer .footer-top-section {
   height: 101vh;
-  background-image: url('./src/assets/footer/footer-bg.webp');
+  background-image: url('/assets/footer/footer-bg.webp');
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;

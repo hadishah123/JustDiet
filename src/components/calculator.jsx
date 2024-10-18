@@ -56,12 +56,12 @@ export default function Calculator() {
     <div className="calsi-body" id="BMI">
       <p className="calsi-heading-style">Calculate your BMI</p>
       <img
-        src="./src/assets/BMI/bmi-decor.webp"
+        src="/assets/BMI/bmi-decor.webp"
         alt="Just Decor"
         className="bmi-styling"
       />
       <img
-        src="./src/assets/BMI/bmi-decor2.webp"
+        src="/assets/BMI/bmi-decor2.webp"
         alt="Just Decor"
         className="bmi2-styling"
       />
@@ -179,7 +179,7 @@ export default function Calculator() {
           )}
         </div>
         <img
-          src="./src/assets/BMI/thomas.webp"
+          src="/assets/BMI/thomas.webp"
           alt="Kizaru"
           className="bmi-thomas"
         />

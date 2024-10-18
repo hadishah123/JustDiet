@@ -4,41 +4,41 @@ export default function Plans() {
   return (
     <div className="plans-section" id="Plans">
       <img
-        src=".\src\assets\plans\plans-bgl.webp"
+        src="\assets\plans\plans-bgl.webp"
         alt="bg"
         className="plans-bgl"
       />
       <img
-        src=".\src\assets\plans\plans-bgr.webp"
+        src="\assets\plans\plans-bgr.webp"
         alt="bg"
         className="plans-bgr"
       />
       <p className="fp-heading-style">fresh plans</p>
       <img
-        src=".\src\assets\plans\fpDecor1.webp"
+        src="\assets\plans\fpDecor1.webp"
         alt="Just Decor"
         className="fp-decor-left"
       />
       <img
-        src=".\src\assets\plans\fpDecor2.webp"
+        src="\assets\plans\fpDecor2.webp"
         alt="Just Decor"
         className="fp-decor-right"
       />
       <img
-        src=".\src\assets\plans\heading-ul-decor.webp"
+        src="\assets\plans\heading-ul-decor.webp"
         alt="Just Decor"
         className="fp-ul-style"
       />
       <img
-        src=".\src\assets\plans\toBottom.webp"
+        src="\assets\plans\toBottom.webp"
         alt="Just Decor"
         className="fp-icon"
       />
       <div className="Plans-image-container">
-        {/* <img src=".\src\assets\plans-membership.webp" alt="membership" className="Plans-image" /> */}
+        {/* <img src="\assets\plans-membership.webp" alt="membership" className="Plans-image" /> */}
         <div className="planInfo">
           <img
-            src="./src/assets/plans/mplan1.webp"
+            src="/assets/plans/mplan1.webp"
             alt="membership plan "
             className="mplan-img1"
           />
@@ -48,7 +48,7 @@ export default function Plans() {
         </div>
         <div className="planInfo-2">
           <img
-            src="./src/assets/plans/mplan2.webp"
+            src="/assets/plans/mplan2.webp"
             alt="membership plan "
             className="mplan-img2"
           />
@@ -58,7 +58,7 @@ export default function Plans() {
         </div>
         <div className="planInfo">
           <img
-            src="./src/assets/plans/mplan3.webp"
+            src="/assets/plans/mplan3.webp"
             alt="membership plan "
             className="mplan-img3"
           />

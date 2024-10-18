@@ -4,12 +4,12 @@ export default function Contact() {
   return (
     <div className="contact-page">
       <img
-        src=".\src\assets\contact\contact--bg.webp"
+        src="\assets\contact\contact--bg.webp"
         alt="Contact BG"
         className="contact-page-bg"
       />
       <img
-        src=".\src\assets\contact\contact-bg-white.webp"
+        src="\assets\contact\contact-bg-white.webp"
         alt="Contact BG"
         className="contact-page-bg-top"
       />
@@ -53,7 +53,7 @@ export default function Contact() {
               <input
                 name="Phone Number"
                 className="input"
-                type="number"
+                type="text"
                 placeholder="Phone Number *"
               />
             </div>
@@ -135,7 +135,6 @@ export default function Contact() {
                 <option value="night">Night (8 PM - 10 PM)</option>
               </select>
             </div>
-
             <button type="submit" className="submit">
               Reach Out
             </button>
@@ -149,23 +148,23 @@ export default function Contact() {
           <p className="benefit-heading">Greens to your door</p>
           <p className="benefit-heading2">Personalized Nutrition Made Easy</p>
           <div className="benefits">
-            <img src=".\src\assets\contact\type-demo.webp" alt="JustDiet" />
+            <img src="\assets\contact\type-demo.webp" alt="JustDiet" />
             <p>Chef-Crafted, Tasty Meals</p>
           </div>
           <div className="benefits">
-            <img src=".\src\assets\contact\type-demo.webp" alt="JustDiet" />
+            <img src="\assets\contact\type-demo.webp" alt="JustDiet" />
             <p>Convenient Doorstep Delivery</p>
           </div>
           <div className="benefits">
-            <img src=".\src\assets\contact\type-demo.webp" alt="JustDiet" />
+            <img src="\assets\contact\type-demo.webp" alt="JustDiet" />
             <p>Customizable Meals Plans</p>
           </div>
           <div className="benefits">
-            <img src=".\src\assets\contact\type-demo.webp" alt="JustDiet" />
+            <img src="\assets\contact\type-demo.webp" alt="JustDiet" />
             <p>Fresh, High-quality Ingredient</p>
           </div>
           <div className="benefits">
-            <img src=".\src\assets\contact\type-demo.webp" alt="JustDiet" />
+            <img src="\assets\contact\type-demo.webp" alt="JustDiet" />
             <p>Personal Nutrition Guidance</p>
           </div>
         </div>

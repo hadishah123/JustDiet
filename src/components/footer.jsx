@@ -16,7 +16,7 @@ export default function Footer({ onContactClick }) {
           Subscribe now
         </button>
         <img
-          src=".\src\assets\footer\footer-bowl.webp"
+          src="assets\footer\footer-bowl.webp"
           alt="Diet Bowl"
           className="footer-bowl"
         />
@@ -26,17 +26,17 @@ export default function Footer({ onContactClick }) {
         <div className="footer-nav">
           <div className="footer-brand-name-styling">
             <img
-              src=".\src\assets\justDiet.png"
+              src="\assets\justDiet.png"
               alt=""
               className="brand-favicon footer-styling-logo"
             />
             <img
-              src=".\src\assets\JustDiet-text.webp"
+              src="\assets\JustDiet-text.webp"
               alt=""
               className="brand-text"
             />
             <img
-              src=".\src\assets\footer\tr-arrow.webp"
+              src="\assets\footer\tr-arrow.webp"
               alt="TR-arrow"
               className="footer-tr-arrow"
             />
@@ -68,7 +68,7 @@ export default function Footer({ onContactClick }) {
           </ul>
           <a href="#Home">
             <img
-              src=".\src\assets\footer\to-top.webp"
+              src="\assets\footer\to-top.webp"
               alt="to-top"
               className="top-btn"
             />

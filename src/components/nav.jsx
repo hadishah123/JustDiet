@@ -9,13 +9,13 @@ export default function Navbar({ onContactClick }) {
       <nav className="row">
         <div className="navbar-nav-brand col-2">
           <img
-            src=".\src\assets\justDiet.png"
+            src="\assets\justDiet.png"
             alt="Just Diet Logo"
             className="brand-favicon"
           />
           <a href="#" className="nav-link">
             <img
-              src=".\src\assets\JustDiet-text.webp"
+              src="\assets\JustDiet-text.webp"
               alt="Brand"
               className="brand-text"
             />
@@ -52,9 +52,9 @@ export default function Navbar({ onContactClick }) {
           </button>
         </div>
       </nav>
-      <img src=".\src\assets\hero.webp" alt="hero" className="hero-image" />
+      <img src="\assets\hero.webp" alt="hero" className="hero-image" />
       <img
-        src=".\src\assets\heroBowl.webp"
+        src="\assets\heroBowl.webp"
         alt="hero bowl"
         className="hero-bowl-image"
       />

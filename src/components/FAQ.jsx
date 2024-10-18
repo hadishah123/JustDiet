@@ -27,15 +27,15 @@ export default function FAQ() {
 
   return (
     <div className="FAQ-section" id="FAQ">
-      <img src="./src/assets/faq-bg.webp" alt="FAQ bg" className="faq-bg" />
+      <img src="/assets/faq-bg.webp" alt="FAQ bg" className="faq-bg" />
       <img
-        src="./src/assets/faq-decor.webp"
+        src="/assets/faq-decor.webp"
         alt="FAQ Decor"
         className="faq-decor1"
       />
       <p className="fp-heading-style">FAQ</p>
       <img
-        src="./src/assets/faq-decor1.webp"
+        src="/assets/faq-decor1.webp"
         alt="FAQ Decor"
         className="faq-decor"
       />
