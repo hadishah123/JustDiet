@@ -1,12 +1,10 @@
 import React from "react";
-// import '@fortawesome/fontawesome-free/css/all.min.css';
 import "./icons.css";
 
 const SocialMediaIcons = () => {
   return (
     <div className="icons-wrapper">
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-        {/* <i className="fab fa-facebook" /> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -36,7 +34,6 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <i classNameName="fab fa-whatsapp" /> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -49,7 +46,6 @@ const SocialMediaIcons = () => {
         </svg>
       </a>
       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-        {/* <i classNameName="fab fa-instagram" /> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
