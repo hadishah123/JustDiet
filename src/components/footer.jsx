@@ -66,16 +66,27 @@ export default function Footer({ onContactClick }) {
               </button>
             </li>
           </ul>
-          <a href="#Home">
-            <img
-              src="\assets\footer\to-top.webp"
-              alt="to-top"
-              className="top-btn"
-            />
-          </a>
         </div>
 
         <div className="footer-contactInfo" id="Contact">
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'flex-end',
+              marginRight: 16,
+              flexDirection: 'column',
+            }}
+          >
+            <a href="#Home">
+              <img
+                src="\assets\footer\to-top.webp"
+                alt="to-top"
+                className="top-btn"
+              />
+            </a>
+            <p>GO TOP</p>
+          </div>
+
           <p className="yellow-font">Contact Us</p>
           <a
             className="footer-small-text mb"

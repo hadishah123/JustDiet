@@ -16,7 +16,7 @@ export default function Contact() {
       <div className="justdiet-form-section">
         <div className="contact-form">
           <form
-            action="https://formspree.io/f/xzzbbowa"
+            action="https://formspree.io/f/movqqzya"
             method="POST"
             className="form"
           >
@@ -108,12 +108,12 @@ export default function Contact() {
               </svg>
               <select name="Diet for:" className="input" id="diet-select">
                 <option value="">Select Diet For *</option>
-                <option value="keto">Weight Gain</option>
-                <option value="keto">Weight Loss</option>
-                <option value="keto">Healthy Meal</option>
-                <option value="keto">Keto</option>
-                <option value="vegan">Vegan</option>
-                <option value="vegetarian">Vegetarian</option>
+                <option value="Weight Gain">Weight Gain</option>
+                <option value="Weight Loss">Weight Loss</option>
+                <option value="Healthy Meal">Healthy Meal</option>
+                <option value="Keto">Keto</option>
+                <option value="Vegan">Vegan</option>
+                <option value="Vegetarian">Vegetarian</option>
               </select>
             </div>
             <div className="input-container ic">

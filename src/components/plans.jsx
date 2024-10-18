@@ -3,16 +3,8 @@ import './plans.css';
 export default function Plans() {
   return (
     <div className="plans-section" id="Plans">
-      <img
-        src="\assets\plans\plans-bgl.webp"
-        alt="bg"
-        className="plans-bgl"
-      />
-      <img
-        src="\assets\plans\plans-bgr.webp"
-        alt="bg"
-        className="plans-bgr"
-      />
+      <img src="\assets\plans\plans-bgl.webp" alt="bg" className="plans-bgl" />
+      <img src="\assets\plans\plans-bgr.webp" alt="bg" className="plans-bgr" />
       <p className="fp-heading-style">fresh plans</p>
       <img
         src="\assets\plans\fpDecor1.webp"

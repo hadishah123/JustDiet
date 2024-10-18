@@ -14,7 +14,7 @@
       format('svg');
 }
 .footer .footer-top-section {
-  height: 101vh;
+  height: 105vh;
   background-image: url('/assets/footer/footer-bg.webp');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -137,8 +137,27 @@
   }
 }
 .top-btn {
-  width: 3rem;
-  /* border: 2px solid black; */
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  animation: bounce 2s infinite; /* 2s duration, infinite repetition */
+  cursor: pointer;
+}
+
+/* Bounce animation keyframes */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0); /* Initial position */
+  }
+  40% {
+    transform: translateY(-20px); /* Move up */
+  }
+  60% {
+    transform: translateY(-10px); /* Smaller bounce */
+  }
 }
 .footer-contactInfo {
   /* border: 2px solid black; */

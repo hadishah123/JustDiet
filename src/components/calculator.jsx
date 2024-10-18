@@ -1,6 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import './calculator.css';
 
+const getBmiResultText = (bmi) => {
+  if (bmi > 29.9) {
+    return 'Obese';
+  }
+  if (bmi > 24.9) {
+    return 'Overweight';
+  }
+  if (bmi > 18.5) {
+    return 'Normal';
+  }
+  return 'Underweight';
+};
+
+const bmiResultColorMap = {
+  Obese: '#D92D20',
+  Overweight: '#F79009',
+  Normal: '#15B79E',
+  Underweight: '#22CCEE',
+};
+
 export default function Calculator() {
   const [value, setValue] = useState(5.7);
   const [weight, setWeight] = useState(70);
@@ -173,9 +193,28 @@ export default function Calculator() {
             Calculate your BMI
           </button>
           {showResult && bmi && (
-            <p className="BMI-result">
-              Your BMI is: <span>{bmi !== null ? bmi : 'N/A'}</span>
-            </p>
+            <div
+              style={{
+                display: 'flex',
+                direction: 'row',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: 10,
+                marginTop: 10,
+              }}
+            >
+              <p className="BMI-result">
+                Your BMI is: <span>{bmi !== null ? bmi : 'N/A'}</span>
+              </p>
+              <p
+                style={{
+                  color: bmiResultColorMap[getBmiResultText(bmi)],
+                  fontWeight: 500,
+                }}
+              >
+                ({getBmiResultText(bmi)?.toUpperCase()})
+              </p>
+            </div>
           )}
         </div>
         <img
