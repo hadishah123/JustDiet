@@ -1,7 +1,8 @@
-import "./nav.css";
-import Slider from "./slider";
+import './nav.css';
+import Slider from './slider';
 
-export default function Navbar({ onContactClick }) { // Accept the prop
+export default function Navbar({ onContactClick }) {
+  // Accept the prop
   return (
     <div className="heroSection" id="Home">
       <Slider />
@@ -22,13 +23,31 @@ export default function Navbar({ onContactClick }) { // Accept the prop
         </div>
         <div className="nav-list-top col-7">
           <ul className="navbar-nav ">
-            <li><a className="nav-link" href="#Salads">Menu</a></li>
-            <li><a className="nav-link" href="#Plans">Pricing</a></li>
-            <li><a className="nav-link" href="#Salads">Categories</a></li>
+            <li>
+              <a className="nav-link" href="#Salads">
+                Menu
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="#Plans">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="#Salads">
+                Categories
+              </a>
+            </li>
           </ul>
         </div>
         <div className="brand-name col">
-          <button type="button" className="btn btn-light" onClick={onContactClick}> {/* Call the prop function */}
+          <button
+            type="button"
+            className="btn btn-light"
+            onClick={onContactClick}
+          >
+            {' '}
+            {/* Call the prop function */}
             Contact Us
           </button>
         </div>

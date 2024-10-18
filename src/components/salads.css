@@ -1,4 +1,3 @@
-
 .our-salad-section {
   /* border: 2px solid black; */
   /* background: radial-gradient(
@@ -34,13 +33,13 @@
 .saladImage {
   width: 14rem;
 }
-.saladName{
+.saladName {
   color: #14463a;
   font-size: 2rem;
   font-weight: 700;
   font-family: verdana;
   margin: 0;
 }
-.saladInfo{
-    font-size: 1.2rem;
+.saladInfo {
+  font-size: 1.2rem;
 }

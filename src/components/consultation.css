@@ -76,7 +76,8 @@
   color: #14463a;
   text-transform: uppercase;
   font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.56) 7px 11px 10px 0px,
+  box-shadow:
+    rgba(0, 0, 0, 0.56) 7px 11px 10px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   background: #ffb91d;
   position: absolute;
@@ -111,7 +112,7 @@
   /* border: 1px solid black; */
   margin-top: 2rem;
 }
-.consulation-bg{
+.consulation-bg {
   position: absolute;
   bottom: -8vh;
   height: 190vh;

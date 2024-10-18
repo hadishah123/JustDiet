@@ -1,4 +1,4 @@
-import "./consultation.css";
+import './consultation.css';
 
 export default function Consultation({ onContactClick }) {
   return (
@@ -33,7 +33,9 @@ export default function Consultation({ onContactClick }) {
         className="apointmentImgDecor2"
       />
       {/* <a href="#Contact"> */}
-        <button onClick={onContactClick} className="BookNowButton">book now</button>
+      <button onClick={onContactClick} className="BookNowButton">
+        book now
+      </button>
       {/* </a> */}
       <p className="heading-main-2-styling">how it works</p>
       <div className="HiW-section-illustration-wrapper">
@@ -56,7 +58,7 @@ export default function Consultation({ onContactClick }) {
             src=".\src\assets\consultation\illustration3.webp"
             alt="illustration img"
           />
-          <p className="how-it-works-section-text">Free Delivery at Gym</p>
+          <p className="how-it-works-section-text">Free Delivery at Gym/Home</p>
         </div>
         <div className="illustration-imgText-wrapper">
           <img

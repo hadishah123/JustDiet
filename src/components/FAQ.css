@@ -37,12 +37,13 @@
   height: 3rem;
   text-align: center;
   border-radius: 50%;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+  box-shadow:
+    rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   font-size: 1.8rem;
   transition: transform 0.5s ease;
 }
-#accordian label + input[type="radio"] {
+#accordian label + input[type='radio'] {
   display: none;
 }
 #accordian .content {
@@ -52,10 +53,10 @@
   color: rgb(119, 116, 116);
   transition: max-height 500ms ease;
 }
-#accordian label + input[type="radio"] + .content {
+#accordian label + input[type='radio'] + .content {
   display: none;
 }
-#accordian label + input[type="radio"]:checked + .content {
+#accordian label + input[type='radio']:checked + .content {
   max-height: 25rem;
   display: block;
 }
@@ -74,12 +75,12 @@
   border: none; /* Default no border */
 }
 
-#accordian input[type="radio"]:checked + label + .content {
+#accordian input[type='radio']:checked + label + .content {
   max-height: 25rem;
   display: block;
 }
 
-#accordian input[type="radio"]:checked + label {
+#accordian input[type='radio']:checked + label {
   border: 2px solid black; /* Border appears when radio is checked */
 }
 
@@ -108,7 +109,8 @@
   height: 3rem;
   text-align: center;
   border-radius: 50%;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+  box-shadow:
+    rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   font-size: 1.8rem;
   transition: transform 0.5s ease;
@@ -123,7 +125,7 @@
   left: 54.5%;
   top: -2vh;
 }
-.faq-bg{
+.faq-bg {
   position: absolute;
   z-index: -1;
   height: 120vh;

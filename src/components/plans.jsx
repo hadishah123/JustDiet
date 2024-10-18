@@ -1,10 +1,18 @@
-import "./plans.css";
+import './plans.css';
 
 export default function Plans() {
   return (
     <div className="plans-section" id="Plans">
-      <img src=".\src\assets\plans\plans-bgl.webp" alt="bg" className="plans-bgl"/>
-      <img src=".\src\assets\plans\plans-bgr.webp" alt="bg" className="plans-bgr"/>
+      <img
+        src=".\src\assets\plans\plans-bgl.webp"
+        alt="bg"
+        className="plans-bgl"
+      />
+      <img
+        src=".\src\assets\plans\plans-bgr.webp"
+        alt="bg"
+        className="plans-bgr"
+      />
       <p className="fp-heading-style">fresh plans</p>
       <img
         src=".\src\assets\plans\fpDecor1.webp"
@@ -16,8 +24,16 @@ export default function Plans() {
         alt="Just Decor"
         className="fp-decor-right"
       />
-      <img src=".\src\assets\plans\heading-ul-decor.webp" alt="Just Decor" className="fp-ul-style"/>
-      <img src=".\src\assets\plans\toBottom.webp" alt="Just Decor" className="fp-icon"/>
+      <img
+        src=".\src\assets\plans\heading-ul-decor.webp"
+        alt="Just Decor"
+        className="fp-ul-style"
+      />
+      <img
+        src=".\src\assets\plans\toBottom.webp"
+        alt="Just Decor"
+        className="fp-icon"
+      />
       <div className="Plans-image-container">
         {/* <img src=".\src\assets\plans-membership.webp" alt="membership" className="Plans-image" /> */}
         <div className="planInfo">

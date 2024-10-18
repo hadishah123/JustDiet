@@ -1,5 +1,5 @@
-import "./footer.css";
-import SocialMediaIcons from "./icons";
+import './footer.css';
+import SocialMediaIcons from './icons';
 
 export default function Footer({ onContactClick }) {
   return (
@@ -12,7 +12,9 @@ export default function Footer({ onContactClick }) {
           Get personalized, nutrient-packed meals delivered to your gym to keep
           you on track with your fitness goals.
         </p>
-        <button onClick={onContactClick} className="subscribe-now">Subscribe now</button>
+        <button onClick={onContactClick} className="subscribe-now">
+          Subscribe now
+        </button>
         <img
           src=".\src\assets\footer\footer-bowl.webp"
           alt="Diet Bowl"
@@ -80,14 +82,12 @@ export default function Footer({ onContactClick }) {
             href="tel:+91 8055566602"
             target="_blank"
           >
-            91+ 89198 91191
+            91+ 7798 071727
           </a>
           <p className="yellow-font">Location</p>
-          <p className="footer-small-text">
-            2972 Westheimer Rd. Santa Ana, Illinois 85486
-          </p>
+          <p className="footer-small-text">Nagpur, Maharashtra, India</p>
           <p className="yellow-font">Mo—Fr</p>
-          <p className="footer-small-text">9am—6pm</p>
+          <p className="footer-small-text">6am—9am | 6pm-9pm</p>
           <p className="yellow-font">Email</p>
           <a
             href="mailto:hello@JustDiet.com"
@@ -101,7 +101,9 @@ export default function Footer({ onContactClick }) {
           </div>
         </div>
       </div>
-      <p className="footer-copyright">&copy;2024 - Copyright</p>
+      <p className="footer-copyright">
+        &copy;2024 Copyright All Rights Reserved - DesignFrnd Technology LLC
+      </p>
     </div>
   );
 }
