@@ -1,16 +1,17 @@
 @font-face {
-  font-family: "Monument Extended Bold";
-  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot");
-  src: url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended Bold")
-      format("svg");
+  font-family: 'Monument Extended Bold';
+  src: url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot');
+  src:
+    url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended Bold')
+      format('svg');
 }
 .contact-page {
   height: 100vh;
@@ -61,7 +62,7 @@
 }
 /* Form STarting */
 .form {
-  background-color: #ffffff;
+  background-color: #F3EFE2;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   box-sizing: border-box;
   height: 100%;
@@ -113,7 +114,7 @@
   /* outline: 0; */
   /* text-align: center; */
   width: 80%;
-  font-family: "Verdana", sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -154,7 +155,7 @@
 .benefit-heading {
   font-size: 2.3rem;
   font-weight: 700;
-  font-family: "Monument Extended Bold", sans-serif;
+  font-family: 'Monument Extended Bold', sans-serif;
   text-transform: uppercase;
   margin: -0.5rem 0;
 }
@@ -171,7 +172,7 @@
   height: 1rem;
 }
 .benefits p {
-  font-family: "Verdana", sans-serif;
+  font-family: 'Verdana', sans-serif;
   margin-left: 1rem;
   font-size: 0.9rem;
 }
@@ -196,9 +197,9 @@
   bottom: 0.7rem;
   left: 2.4rem;
 }
-.icons a{
-    text-decoration: none;
-    color: #103f34;
+.icons a {
+  text-decoration: none;
+  color: #103f34;
 }
 .icons svg {
   font-size: 3rem;

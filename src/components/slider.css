@@ -52,14 +52,12 @@
   }
 }
 
-
-
-.clean-extended-spce-line{
-    background-color: #fafae0;
-    width: 8rem;
-    z-index: 4;
-    height: 1.3rem;
-    position: absolute;
-    bottom: -1.25rem;
-    right: 0;
+.clean-extended-spce-line {
+  background-color: #fafae0;
+  width: 8rem;
+  z-index: 4;
+  height: 1.3rem;
+  position: absolute;
+  bottom: -1.25rem;
+  right: 0;
 }

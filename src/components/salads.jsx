@@ -1,36 +1,36 @@
-import "./salads.css";
+import './salads.css';
 
 export default function Salads() {
   const List = [
     {
-      name: "Egg Chicken Salad Bowl",
-      description: "520cal - 22g Protein",
-      image: "../src/assets/salads/salad3.webp",
+      name: 'Egg Chicken Salad Bowl',
+      description: '520cal - 22g Protein',
+      image: '/assets/salads/salad3.webp',
     },
     {
-      name: "Veg Salad Bowl",
-      description: "520cal - 22g Protein",
-      image: "../src/assets/salads/salad2.webp",
+      name: 'Veg Salad Bowl',
+      description: '520cal - 22g Protein',
+      image: '/assets/salads/salad2.webp',
     },
     {
-      name: "Fruit Salad Bowl",
-      description: "520cal - 22g Protein",
-      image: "../src/assets/salads/salad3.webp",
+      name: 'Fruit Salad Bowl',
+      description: '520cal - 22g Protein',
+      image: '/assets/salads/salad3.webp',
     },
     {
-      name: "Egg Chicken Salad Bowl",
-      description: "520cal - 22g Protein",
-      image: "../src/assets/salads/salad1.webp",
+      name: 'Egg Chicken Salad Bowl',
+      description: '520cal - 22g Protein',
+      image: '/assets/salads/salad1.webp',
     },
     {
-      name: "Veg Salad Bowl",
-      description: "520cal - 22g Protein",
-      image: "../src/assets/salads/salad2.webp",
+      name: 'Veg Salad Bowl',
+      description: '520cal - 22g Protein',
+      image: '/assets/salads/salad2.webp',
     },
     {
-      name: "Fruit Salad Bowl",
-      description: "520cal - 22g Protein",
-      image: "../src/assets/salads/salad3.webp",
+      name: 'Fruit Salad Bowl',
+      description: '520cal - 22g Protein',
+      image: '/assets/salads/salad3.webp',
     },
   ];
 
@@ -44,19 +44,19 @@ export default function Salads() {
 
   const SaladList = () => {
     return (
-        <div className="our-salad-section" id="Salads">
+      <div className="our-salad-section" id="Salads">
         <p className="os-heading-styling">Our Salads</p>
-      <div className="our-salad-inner-section">
-        {List.map((sals, index) => (
+        <div className="our-salad-inner-section">
+          {List.map((sals, index) => (
             <Salad
-            key={index}
-            name={sals.name}
-            description={sals.description}
-            image={sals.image}
+              key={index}
+              name={sals.name}
+              description={sals.description}
+              image={sals.image}
             />
-        ))}
-      </div>
+          ))}
         </div>
+      </div>
     );
   };
 

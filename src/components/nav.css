@@ -1,14 +1,14 @@
-*{
-    /* box-sizing: border-box;
+* {
+  /* box-sizing: border-box;
     outline: 6px solid limegreen !important; */
-    font-family: Verdana;
+  font-family: Verdana;
 }
-.heroSection{
-    background-color: #14463a;
-    height: 70vh;
+.heroSection {
+  background-color: #14463a;
+  height: 70vh;
 }
 .row {
-  font-family: "Monument Extended", sans-serif;
+  font-family: 'Monument Extended', sans-serif;
   color: white;
   width: 100%;
   background-color: #14463a;
@@ -44,14 +44,13 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.col{
+.col {
   /* border: 2px solid red; */
   display: flex;
   justify-content: end;
   margin-right: 1rem;
 }
 .col .btn-light {
-
   border-radius: 2rem;
   padding: 0.6rem 4rem;
   font-size: 1.2rem;
@@ -64,8 +63,8 @@
   margin: 0;
   background-color: #14463a;
   position: relative;
-  z-index:1;
-  top:-1rem;
+  z-index: 1;
+  top: -1rem;
 }
 
 .hero-bowl-image {
@@ -90,7 +89,7 @@
     transform: rotate(360deg);
   }
 }
-.btn a{
+.btn a {
   color: black;
   text-decoration: none;
 }
