@@ -110,10 +110,15 @@ export default function Footer({ onContactClick }) {
           <div className="social-icons">
             <SocialMediaIcons />
           </div>
+          <small style={{ color: '#ffb91d', fontSize: 12 }}>
+          Made with <span style={{ color: '#D92D20' }}>&#9829;</span> by
+          DesignFrnd
+        </small>
         </div>
+     
       </div>
       <p className="footer-copyright">
-        &copy;2024 Copyright All Rights Reserved - DesignFrnd Technology LLC
+        &copy;2024 Copyright All Rights Reserved - JustDiet Food Services LLC
       </p>
     </div>
   );

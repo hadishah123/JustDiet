@@ -236,10 +236,18 @@ export default function Contact() {
             </a>
           </div>
           <div className="footer-text">
-            2024 Copyright All Rights Reserved - DesignFrnd Technology LLC
+            &copy;2024 Copyright All Rights Reserved - JustDiet Food Services
+            LLC
           </div>
         </div>
       </div>
+      <div style={{ position: 'fixed', bottom: 0 , right: 0, height: 20}}>
+      <small style={{ color: '#ffb91d', fontSize: 12, padding: '0px 8px' }}>
+          Made with <span style={{ color: '#D92D20' }}>&#9829;</span> by
+          DesignFrnd
+        </small>
+      </div>
     </div>
+
   );
 }
