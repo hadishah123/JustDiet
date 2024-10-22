@@ -1,0 +1,55 @@
+/* .heroBgSlider {
+    Styles for the main wrapper
+} */
+
+.slider {
+    /* Styles for the first slider */
+    display: flex; /* Example: display images in a row */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.sliderImage {
+    position: absolute;
+    z-index: 1;
+    bottom: 14rem;
+    transform: rotate(-11deg);
+    width: 100%; /* Example: responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.slider2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.sliderImageF {
+    position: absolute;
+    z-index: 1;
+    bottom: 14rem;
+    transform: rotate(11deg);
+    width: 100%; 
+    height: auto;
+}
+
+.cleanExtendedSpaceLine {
+    height: 2px;
+    margin: 1rem 0;
+}
+@media (width<420px) {
+    .sliderImage {
+        position: absolute;
+        z-index: 1;
+        bottom: 9rem;
+        transform: rotate(-11deg);
+        width: 100%;
+        height: auto;
+    }
+    .sliderImageF {
+        position: absolute;
+        z-index: 1;
+        bottom: 9rem;
+        transform: rotate(11deg);
+        width: 100%; 
+        height: auto;
+    }
+}

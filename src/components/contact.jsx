@@ -9,6 +9,11 @@ export default function Contact() {
         className="contact-page-bg"
       />
       <img
+        src="\assets\contact\contact--bg-mobile.webp"
+        alt="Contact BG"
+        className="contact-bg-mobile"
+      />
+      <img
         src="\assets\contact\contact-bg-white.webp"
         alt="Contact BG"
         className="contact-page-bg-top"

@@ -9,8 +9,9 @@
   ); */
   height: 120vh;
 }
+
 .our-salad-inner-section {
-  /* height: max-content; */
+  height: max-content;
   /* border-top: 3px solid #000; */
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +20,7 @@
   text-align: center;
   margin: 0rem 4rem;
 }
+
 .os-heading-styling {
   letter-spacing: -3px;
   /* border: 2px solid black; */
@@ -30,16 +32,59 @@
   font-weight: 800;
   text-transform: uppercase;
 }
+
 .saladImage {
   width: 14rem;
+  /* border: 2px solid black; */
 }
+
 .saladName {
   color: #14463a;
   font-size: 2rem;
   font-weight: 700;
   font-family: verdana;
+  /* border: 2px solid black; */
   margin: 0;
 }
+
 .saladInfo {
   font-size: 1.2rem;
+  /* border: 2px solid black; */
+
+}
+
+/* Responsive styles for max-width: 420px */
+@media (max-width: 420px) {
+  .our-salad-section {
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .our-salad-inner-section {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    /* border: 2px solid black; */
+  }
+
+  .os-heading-styling {
+    font-size: 3rem; /* Reduce heading size */
+  }
+
+  .saladImage {
+    /* border: 2px solid black; */
+    width: 9rem; /* Reduce image size */
+  }
+
+  .saladName {
+    /* border: 2px solid black; */
+    font-size: 1.3rem; /* Reduce salad name size */
+    text-align: center;
+  }
+
+  .saladInfo {
+    font-size: 1rem; /* Reduce salad info size */
+  }
 }

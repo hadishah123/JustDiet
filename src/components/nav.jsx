@@ -51,7 +51,7 @@ export default function Navbar({ onContactClick }) {
             Contact Us
           </button>
         </div>
-      </nav>
+      </nav>z
       <img src="\assets\hero.webp" alt="hero" className="hero-image" />
       <img
         src="\assets\heroBowl.webp"

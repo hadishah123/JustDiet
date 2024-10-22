@@ -16,3 +16,8 @@
   width: 2rem;
   height: 2rem;
 }
+@media (max-width:420px) {
+  .icons-wrapper{
+    padding: 1rem 3.2rem;
+  }
+}

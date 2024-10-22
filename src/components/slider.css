@@ -9,7 +9,7 @@
   overflow: hidden;
   display: inline-flex;
   position: absolute;
-  bottom: 12vh;
+  bottom:8.6vh;
   z-index: 3;
   width: 99.9%;
   left: -0.2rem;
@@ -34,7 +34,7 @@
 .slider2 {
   display: inline-flex;
   position: absolute;
-  bottom: 14.2vh;
+  bottom: 11vh;
   z-index: 2;
   width: 100vw;
   /* left: -1rem; */
@@ -58,6 +58,6 @@
   z-index: 4;
   height: 1.3rem;
   position: absolute;
-  bottom: -1.25rem;
+  bottom: -2.76rem;
   right: 0;
 }

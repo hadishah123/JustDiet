@@ -13,6 +13,7 @@
     url('https://db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended Bold')
       format('svg');
 }
+
 .footer .footer-top-section {
   height: 105vh;
   background-image: url('/assets/footer/footer-bg.webp');
@@ -29,6 +30,7 @@
   padding-top: 7rem;
   font-family: 'Monument Extended Bold';
 }
+
 .footer-top-section .footer-heading {
   z-index: 2;
   /* color: white; */
@@ -38,6 +40,7 @@
   width: 80vw;
   /* text-transform: capitalize; */
 }
+
 .footer .footer-text {
   font-size: 1.8rem;
   letter-spacing: -0.7px;
@@ -49,6 +52,7 @@
   bottom: 20%;
   color: #ffffff;
 }
+
 .subscribe-now {
   font-size: 1.6rem;
   font-family: Verdana, sans-serif;
@@ -71,33 +75,39 @@
       rgba(255, 255, 255, 0.1) 0px 16px 56px;
   }
 }
+
 .footer-bowl {
   position: absolute;
   z-index: 5;
   right: 0;
   top: 3rem;
 }
+
 .footer-nav-section {
   height: 75vh;
   background-color: #14463a;
   color: white;
   /* margin-bottom: -3rem; */
 }
+
 .footer-tr-arrow {
   height: 0.8rem;
   position: absolute;
   right: 6.6rem;
   top: 1rem;
 }
+
 .footer-nav {
   /* border: 2px solid black; */
   display: block;
   padding: 1rem 3rem;
   width: 33rem;
 }
+
 .footer-styling-logo {
   height: 100%;
 }
+
 .footer-brand-name-styling {
   /* border: 2px solid black; */
   display: flex;
@@ -106,10 +116,12 @@
   position: relative;
   margin-bottom: 2rem;
 }
+
 .footer-nav-list {
   list-style: none;
   /* border: 2px solid black; */
 }
+
 .footer-contact-btn {
   border: none;
   /* outline: none; */
@@ -124,6 +136,7 @@
     color: whitesmoke;
   }
 }
+
 .footer-nav li a {
   text-decoration: none;
   margin-left: -1.5rem;
@@ -136,6 +149,7 @@
     color: whitesmoke;
   }
 }
+
 .top-btn {
   width: 50px; /* Adjust as needed */
   height: 50px; /* Adjust as needed */
@@ -159,16 +173,19 @@
     transform: translateY(-10px); /* Smaller bounce */
   }
 }
+
 .footer-contactInfo {
   /* border: 2px solid black; */
   width: 20rem;
 }
+
 .footer-nav-section {
   display: flex;
   /* border: 2px solid rgb(6, 33, 112); */
   justify-content: space-between;
   align-items: end;
 }
+
 .footer-contactInfo .yellow-font {
   font-family: 'Monument Extended Bold';
   color: #ffb91d;
@@ -176,24 +193,153 @@
   letter-spacing: 0.1rem;
   margin-bottom: -0.5rem;
 }
+
 .footer-contactInfo .footer-small-text {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 0.9rem;
   color: rgb(210, 209, 206);
 }
+
 .footer {
   height: 185vh;
   /* background-color: #14463a; */
   color: white;
 }
+
 .footer .footer-copyright {
   text-align: center;
   padding: 1.1rem;
   font-size: 0.9rem;
   background-color: #14463a;
 }
+
 .footer-contactInfo .mb {
   /* border: 2px solid black; */
   text-decoration: none;
   color: white;
+}
+
+/* Responsive styles for max-width: 420px */
+@media (max-width: 420px) {
+  .footer .footer-top-section {
+    height: 30vh;
+    margin-top: 5vh;
+    margin-bottom: -3rem;
+    padding: 1rem;
+    /* bottom: 0; */
+    /* border: 2px solid black; */
+  }
+
+  .footer-top-section .footer-heading {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    width: 90vw;
+  }
+
+  .footer .footer-text {
+    font-size: 1.4rem;
+    /* border: 2px solid rgb(218, 35, 35); */
+    width: 50vw;
+    /* margin-left: 1rem; */
+    left: 10rem;
+    bottom: -4rem;
+    font-family: Verdana,sans-serif;
+    font-weight: lighter;
+    /* margin-top: 15rem; */
+    padding: 1rem;
+  }
+
+  .subscribe-now {
+    font-size: 1.1rem;
+    padding: 0.3rem 2rem;
+    position: absolute;
+    font-family: "Monument Extended Bold",Verdana,sans-serif;
+    bottom: -9rem;
+  }
+
+  .footer-nav {
+    height: auto;
+    /* background-color: #14463a; */
+    width: 45%;
+    /* border: 2px solid black; */
+    margin-top: 9rem;
+    padding: 1rem;
+  }
+
+  .footer-nav li a {
+    font-size: 1.5rem;
+  }
+
+  .footer-contactInfo {
+    width: 50%;
+    /* border: 2px solid black; */
+    text-align: right;
+    padding: 1rem;
+  }
+
+  .footer-nav-section {
+    /* flex-direction: column; */
+    /* border: 2px solid black; */
+    height: 75vh;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+  }
+  .footer-contactInfo .yellow-font {
+    font-size: 0.9rem;
+  }
+  .footer-contactInfo .footer-small-text {
+    font-size: 1.1rem;
+  }
+  .footer-tr-arrow {
+    right: 2rem;
+    /* bottom: 0; */
+    display: none;
+  }
+
+  .footer-bowl {
+    top: 1rem;
+    width: 59%;
+    right: 0;
+    /* display: none; */
+  }
+  .brand-favicon {
+    display: none;
+  }
+  .brand-text {
+    /* display: none; */
+    /* border: 2px solid black; */
+    height: 2.8rem;
+    top: -1rem;
+    left: 40%;
+    transform: translateY(-40%);
+    position: absolute;
+  }
+  .footer{
+    height: max-content;
+  }
+  .footer-copyright{
+    padding-top: 3rem;
+    height: 3rem;
+    /* border: 2px solid black; */
+    background-color: #14463a;
+    width: 100%;
+    position: absolute;
+  }
+  .top-btn{
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+  .go-top{
+    font-size: 1.1rem;
+  }
+  small{
+    font-size: 1rem;
+  }
+}
+@media (width<405px) {
+  .footer .footer-text{
+    /* border: 2px solid black; */
+    font-size: 1.3rem;
+  }
 }

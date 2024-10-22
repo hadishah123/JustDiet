@@ -84,7 +84,7 @@ export default function Footer({ onContactClick }) {
                 className="top-btn"
               />
             </a>
-            <p>GO TOP</p>
+            <p className='go-top'>GO TOP</p>
           </div>
 
           <p className="yellow-font">Contact Us</p>

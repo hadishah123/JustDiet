@@ -220,3 +220,122 @@
   right: 2.7rem;
   color: #103f34;
 }
+.contact-bg-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 420px) {
+  .contact-page-bg {
+    display: none;
+  }
+  .contact-page-bg-top {
+    display: none;
+  }
+  .contact-page{
+    height: 115vh;
+  }
+  .contact-bg-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .justdiet-form-section {
+    top: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: space-evenly; */
+    width: 73%;
+    height: 80vh;
+  }
+  .contact-form,
+  .contact-benefit {
+    width: 100%;
+    /* border: 2px solid rgb(202, 0, 0); */
+    margin: 0;
+    height: max-content;
+  }
+  /* .ic {
+    width: 100%;
+  } */
+  .ic .input {
+    font-size: 0.7rem;
+    border: 1px solid #103f34;
+    width: 92%;
+    height: 2.6rem;
+  }
+  .submit {
+    font-size: 1rem;
+    height: 2.5rem;
+    bottom: -2.5rem;
+    width: 76%;
+    color: #ede7d4;
+  }
+  .benefit-heading {
+    font-size: 1.5rem;
+  }
+  .benefit-heading2 {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  .benefits p {
+    font-size: 0.5rem;
+    text-align: left;
+    /* border: 2px solid rgb(12, 55, 20); */
+    /* margin-left: 1px; */
+    margin: 0.1rem;
+  }
+  .benefits img {
+    height: 0.5rem;
+    /* border: 2px solid blue; */
+    left: 0.6rem;
+    margin: 0.1rem;
+    position: absolute;
+  }
+  .agreement-text {
+    font-size: 0.6rem;
+    /* border: 2px solid black; */
+    bottom: -6.2rem;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form {
+    background: none;
+    box-shadow: none;
+    /* border: 2px solid rgb(0, 217, 255); */
+  }
+  /* .contact-form {
+    border: 2px solid blue;
+  } */
+  .footer-text {
+    font-size: 0.5rem;
+    position: absolute;
+    /* bottom: 1.2rem; */
+    /* right: 2.7rem; */
+    bottom: -11rem;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .icons {
+    flex-direction: row;
+    width: 80%;
+    bottom: -9.5rem;
+    /* display: none; */
+  }
+  .icons svg {
+    font-size: 2rem;
+    /* display: none; */
+  }
+  .hr{
+    bottom: -11rem;
+    width: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+}

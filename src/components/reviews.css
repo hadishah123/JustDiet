@@ -9,27 +9,30 @@
   height: 110vh;
   position: relative;
 }
+
 .fr-ul-decor1 {
   position: absolute;
   top: 6rem;
   left: 26%;
 }
+
 .fr-ul-decor2 {
   position: absolute;
   top: 5rem;
   left: 64%;
   z-index: 2;
 }
+
 .reviews-cp {
   position: absolute;
   left: 10%;
   top: 14%;
-  /* border: 1px solid black; */
 }
+
 .reviews-main-container {
-  /* border: 11px solid black; */
   position: relative;
 }
+
 .review-box {
   border: 1px solid rgb(255, 255, 255);
   background: white;
@@ -42,14 +45,16 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   display: flex;
   transition: 300ms ease-in;
-  &:hover {
-    z-index: 100;
-    transform: scale(1.05);
-  }
 }
+.review-box:hover{
+  transform: scale(1.06);
+  z-index: 100;
+}
+
 .review-box img {
   margin-right: 0.7rem;
 }
+
 .R1 {
   position: absolute;
   top: 13vh;
@@ -57,86 +62,194 @@
   z-index: 1;
   background-color: #fcf3ec;
 }
+
 .R2 {
   position: absolute;
   top: 30vh;
   left: 14vw;
   background-color: #fffaf7;
 }
+
 .R3 {
   position: absolute;
   top: 43vh;
   left: 44vw;
 }
+
 .R4 {
   position: absolute;
   top: 54vh;
   left: 23vw;
   background-color: #fbeee5;
 }
+
 .R5 {
   position: absolute;
   top: 52vh;
   left: 58vw;
   background-color: #fcf4ed;
 }
-/* .commentor-info{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-} */
+
 .commentor-img {
   width: 3.6rem;
   height: 3.6rem;
   object-fit: cover;
 }
+
 .rating {
   display: flex;
   justify-content: start;
   align-items: start;
-  /* border: 1px solid black; */
 }
+
 .rating img {
   height: 1.25rem;
   margin: 1.7px;
 }
+
 .rating .c-name {
   color: #14463a;
   font-size: 1.4rem;
   font-weight: 700;
 }
+
 .c-designation {
   font-size: 0.8rem;
   margin-top: -1rem;
   color: rgb(124, 123, 123);
 }
+
 .c-emoji {
   margin: 0 6px;
   font-size: 1.4rem;
 }
+
 .comment-heading {
   font-weight: 600;
   font-size: 0.9rem;
   margin-bottom: 0.4rem;
 }
+
 .comment {
   color: rgb(71, 69, 69);
   font-size: 0.8rem;
   margin-bottom: 0.7rem;
 }
+
 .comment-date {
   color: #e8a0a8;
   font-size: 0.6rem;
 }
+
 .review-bgl {
   position: absolute;
   height: 150vh;
   left: 0;
   top: 0;
 }
+
 .review-bgr {
   position: absolute;
   height: 150vh;
   right: 0;
   top: 0;
+}
+
+/* Responsive styles for max-width: 420px */
+@media (max-width: 420px) {
+  .review-section {
+    height: 70vh; /* Adjust height for smaller screens */
+    /* border: 2px solid black; */
+  }
+
+  .fr-ul-decor2{
+    /* display: none; */
+    width: 30%;
+    top: 3rem;
+    right: 0;
+  } 
+  .fr-ul-decor1{
+    left: 50%; /* Adjust positions for decor */
+    transform: translateX(-50%);
+    top: 3.5rem; /* Adjust top position */
+    width: 70%;
+  }
+  .review-bgr,
+  .review-bgl {
+    /* display: none; */
+    width: 70%;
+    height: 70%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 17vh;
+    user-select: none;
+  }
+
+  .reviews-cp {
+    /* left: 5%;  */
+    top: 15%;
+    width: 75%;
+    /* display: none; */
+  }
+
+  .review-box {
+    width: 60%; /* Make the review box responsive */
+    margin: 1rem auto; /* Center align with margin */
+    height: auto; /* Auto height for flexibility */
+    &:hover{
+      z-index: 5;
+      transform: scale(1.2);
+    }
+  }
+  .R1 {
+    background-color: #fcf3ec;
+    position: absolute;
+    top: 10vh;
+    left: 20vh;
+  }
+
+  .R2 {
+    background-color: #fffaf7;
+    position: absolute;
+    top: 15vh;
+    left: 4vh;
+  }
+
+  .R3 {
+    background-color: #fbeee5;
+    display: none;
+  }
+
+  .R4 {
+    background-color: #fffaf7;
+    position: absolute;
+    top: 35vh;
+    left: 4vh;
+  }
+
+  .R5 {
+    background-color: #fbeee5;
+    position: absolute;
+    left: 20vh;
+    top: 30vh;
+  }
+
+  .commentor-img {
+    width: 3rem; /* Smaller images */
+    height: 3rem; /* Smaller images */
+    /* display: none; */
+  }
+
+  .rating .c-name {
+    font-size: 1rem; /* Adjust font size */
+  }
+  .comment{
+    font-size: 0.6rem;
+  }
+  .comment-heading{
+    font-size: 0.5rem;
+  }
+  .comment-date {
+    font-size: 0.4rem; /* Adjust font size */
+  }
 }

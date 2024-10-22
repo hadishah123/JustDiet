@@ -17,12 +17,22 @@ export default function Consultation({ onContactClick }) {
         <p className="heading-main-styling">get a free nutritionist</p>
         <p className="heading-main-styling">consultation today</p>
       </div>
+      <div className="consult-head-combine2">
+        <p className="heading-main-styling-mobile">get a free nutritionist consultation today</p>
+        {/* <p className="heading-main-styling"></p> */}
+      </div>
       <img
-        src="\assets\consultation\Appointment-booking.webp"
+        src="\assets\consultation\Appointment-booking-pc.webp"
         alt="img"
         className="apointmentImg"
       />
       <img
+        src="\assets\consultation\Appointment-booking.webp"
+        alt="img"
+        className="apointmentImgMobile"
+        onClick={onContactClick}
+      />
+      {/* <img
         src="\assets\consultation\Booking-decor.webp"
         alt="img"
         className="apointmentImgDecor"
@@ -31,7 +41,7 @@ export default function Consultation({ onContactClick }) {
         src="\assets\consultation\Booking-decor2.webp"
         alt="img"
         className="apointmentImgDecor2"
-      />
+      /> */}
       {/* <a href="#Contact"> */}
       <button onClick={onContactClick} className="BookNowButton">
         book now

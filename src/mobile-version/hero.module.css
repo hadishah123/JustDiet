@@ -1,0 +1,51 @@
+/* .heroWrapper {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    object-fit: cover;
+} */
+
+.HeroBG {
+  width: 100%;
+  max-height: 760px;
+  display: block;
+
+}
+
+.heroBowl {
+  width: 70%;
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  /* bottom: -6vh; */
+  top: 66vh;
+  z-index: 2;
+  animation: rotate 25s linear infinite;
+  transition: 2s ease;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@media (max-width: 440px) {
+  .heroBowl {
+    width: 70%; /* Adjust size for smaller screens */
+    /* border: 2px solid black; */
+  }
+}
+
+@media (max-width: 405px) {
+  .heroBowl {
+    width: 67%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}

@@ -9,9 +9,11 @@ import Calculator from './components/calculator';
 import FAQ from './components/FAQ';
 import Footer from './components/footer';
 import Contact from './components/contact';
+import NavSmall from './mobile-version/NavSmall';
 
 function App() {
   const [showContact, setShowContact] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 420);
 
   const handleContactClick = () => {
     setShowContact(true);
@@ -22,11 +24,17 @@ function App() {
     setShowContact(false);
   };
 
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 420);
+  };
+
   useEffect(() => {
     window.addEventListener('popstate', handlePopState);
+    window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -34,7 +42,11 @@ function App() {
     <div className="change-bg-for-all-components">
       {!showContact ? (
         <>
-          <Navbar onContactClick={handleContactClick} />
+          {isMobile ? (
+            <NavSmall onContactClick={handleContactClick} />
+          ) : (
+            <Navbar onContactClick={handleContactClick} />
+          )}
           <Consultation onContactClick={handleContactClick} />
           <Salads />
           <Plans />
