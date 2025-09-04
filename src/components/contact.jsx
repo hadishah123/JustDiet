@@ -21,7 +21,7 @@ export default function Contact() {
       <div className="justdiet-form-section">
         <div className="contact-form">
           <form
-            action="https://formspree.io/f/movqqzya"
+            action="https://formsubmit.co/hadishah.work@gmail.com"
             method="POST"
             className="form"
           >
@@ -147,6 +147,11 @@ export default function Contact() {
               By clicking on “Reach out” you are agreeing to the Terms of
               Service and the Privacy Policy.
             </p>
+            <input
+            type="hidden"
+            name="_next"
+            value="https://github.com/hadishah123"
+            />
           </form>
         </div>
         <div className="contact-benefit">

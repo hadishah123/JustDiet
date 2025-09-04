@@ -1,11 +1,10 @@
 import './nav.css';
-import Slider from './slider';
+// import Slider from './slider';
 
 export default function Navbar({ onContactClick }) {
   // Accept the prop
   return (
     <div className="heroSection" id="Home">
-      <Slider />
       <nav className="row">
         <div className="navbar-nav-brand col-2">
           <img
@@ -53,6 +52,7 @@ export default function Navbar({ onContactClick }) {
         </div>
       </nav>z
       <img src="\assets\hero.webp" alt="hero" className="hero-image" />
+      {/* <Slider /> */}
       <img
         src="\assets\heroBowl.webp"
         alt="hero bowl"
