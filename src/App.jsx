@@ -9,7 +9,7 @@ import Calculator from './components/calculator';
 import FAQ from './components/FAQ';
 import Footer from './components/footer';
 import Contact from './components/contact';
-import NavSmall from './mobile-version/NavSmall';
+import NavSmall from './mobile-version/navsmall.jsx';
 
 function App() {
   const [showContact, setShowContact] = useState(false);
