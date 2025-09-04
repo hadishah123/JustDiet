@@ -150,7 +150,7 @@ export default function Contact() {
             <input
             type="hidden"
             name="_next"
-            value="https://github.com/hadishah123"
+            value="https://justdiet.vercel.app/"
             />
           </form>
         </div>
