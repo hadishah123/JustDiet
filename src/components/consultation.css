@@ -134,7 +134,7 @@
   .ConsultationSection {
     /* border-bottom: 7px solid #14463a; */
   /* border: 2px solid black; */
-  height: 140vh;
+  height: 120vh;
     width: 100%;
     /* position: relative; */
     /* background: radial-gradient(
@@ -149,7 +149,7 @@
     position: absolute;
     width: 5.2rem;
     right: 10vw;
-    top: 6.5vh;
+    top: 5.5vh;
     /* display: none; */
   }
   .apointmentImg {
@@ -160,7 +160,7 @@
     position: absolute;
     /* width: 100%; */
     height: 19rem;
-    top: 49vh;
+    top: 40vh;
     left: 8vw;
     max-width: 100%;
     z-index: 3;
@@ -177,11 +177,11 @@
     font-size: 4rem;
     font-family: 'Monument Extended Bold', Verdana;
     text-align: center;
-  /* border: 2px solid black; */
-  width: 100%;
+    /* border: 2px solid black; */
+    width: 100%;
     /* font-weight: 800; */
     position: absolute;
-    top: 18vh;
+    top:12vh;
     line-height: 4rem;
     text-transform: uppercase;
     color: #14463a;
@@ -197,7 +197,7 @@
     width: 100%;
     /* font-weight: 800; */
     position: absolute;
-    top: 80vh;
+    top: 69vh;
     /* margin-top: 10vh; */
     line-height: 4rem;
     text-transform: uppercase;
@@ -211,6 +211,7 @@
     display: flex;
     /* border: 1px solid black; */
     height: max-content;
+    bottom: 3%;
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;

@@ -28,9 +28,10 @@
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 450px) {
   .heroBowl {
     width: 70%; /* Adjust size for smaller screens */
+    top: 50%;
     /* border: 2px solid black; */
   }
 }

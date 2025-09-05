@@ -1,4 +1,4 @@
-import Slider from './sliderMob'
+// import Slider from './sliderMob'
 import styles from './hero.module.css'
 
 export default function HeroSlider(){

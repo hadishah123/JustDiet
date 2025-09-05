@@ -67,7 +67,7 @@ const Navbar = {
     display: flex;
     align-items: center;
     background-color: #14463a; /* Changed background color to #14463a */
-    position: fixed;
+    position: absolute;
     width: 100%;
     justify-content: space-between;
     z-index: 5;
@@ -84,6 +84,7 @@ const Navbar = {
     flex: 1;
     transition: color 0.3s ease;
     color: antiquewhite; /* Set logo color */
+    
   `,
   Items: styled.ul`
     display: flex;
