@@ -280,7 +280,7 @@
   .footer-nav-section {
     /* flex-direction: column; */
     /* border: 2px solid black; */
-    height: 75vh;
+    height: 60vh;
     justify-content: space-between;
     align-items: end;
     position: relative;
